@@ -6,10 +6,10 @@ import json
 
 async def launch_web_ui(update: Update, callback: CallbackContext):
     # For now, we just display google.com...
-    kb = [
-            [KeyboardButton("Hi", web_app=WebAppInfo("https://RolDayWebApp"))]
-    ]
-    await update.message.reply_text("Let's do this...", reply_markup=ReplyKeyboardMarkup(kb))
+    # kb = [
+    #         [KeyboardButton("Hui", web_app=WebAppInfo("https://kawatteshimatta.github.io"))]
+    # ]
+    await update.message.reply_text("Let's do this...")
 
 
 if __name__ == '__main__':
